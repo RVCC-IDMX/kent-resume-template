@@ -4,5 +4,5 @@
 
 ### Resources
 
-* [Image by Avatar Maker](Image by https://avatarmaker.com/)
+[Image by Avatar Maker](Image by https://avatarmaker.com/)
 
