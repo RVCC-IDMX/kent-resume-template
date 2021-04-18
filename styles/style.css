@@ -1,0 +1,197 @@
+/*
+  Resume Page:
+  To match design specs:
+    Display text: Lato 100
+    Body text: Open Sans - regular & bold
+               OPen Sans - italic regular
+    Background color: #2b3951
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #2b3951;
+  margin: auto;
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  padding: 3vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  margin: 0;
+  padding: 0.5rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure-wrapper {
+  padding-top: 2rem;
+  width: 80%;
+}
+
+.portrait {
+  background-color: #2b3951;
+  max-width: 100%;
+  display: block;
+}
+
+.header-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main > h2 {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+
+section h3 {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* aside {
+  margin: 1rem;
+}
+
+
+*/
+
+aside .quote:before {
+  color: #2b3951;
+  content: open-quote;
+  font-size: 4rem;
+  line-height: 0.1rem;
+  margin-right: 0.2rem;
+  vertical-align: -1.5rem;
+}
+
+aside .quote {
+  outline: 2px solid #2b3951;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 2rem;
+}
+
+.job {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.template-wrapper {
+  outline: 1px solid gray;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: auto;
+  display: block;
+}
+
+/* Make most div boxes inline */
+
+.job-title,
+.major,
+.employer,
+.university,
+.city,
+.date-range,
+.degree {
+  display: inline;
+}
+
+/* Change to italic */
+.date-range,
+.degree {
+  font-style: italic;
+}
+
+ul li {
+  list-style: circle;
+}
+
+/* Add some padding to lists */
+li {
+  padding-bottom: 0.25rem;
+}
+
+.employer,
+.job-title,
+.schooling,
+.major {
+  display: inline;
+  margin: 0;
+}
+
+/* give more vertical space */
+
+.skillset {
+  line-height: 1.7em;
+}
+
+/* footer */
+footer {
+  margin-top: 1.5rem;
+  height: 6rem;
+  background-color: #2b3951;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-contents {
+  font-size: 1.5rem;
+}
+
+a.github {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+}
+
+/* Lobotomized owl
+  https://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+*/
+* + * {
+  margin-bottom: 1em;
+}
